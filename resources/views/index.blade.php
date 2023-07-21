@@ -52,8 +52,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">For those about to rock...</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <h2 class="display-4">Sudah Menggunakan Sistem Cloud</h2>
+                            <p>aplikasi inventaris barang ini sudah menggunakan sistem cloud untuk menyimpan semua data yang dimasukkan. Sistem cloud ini sangat memungkinkan data untuk diakses banyak orang dari satu database. Sehingga untuk kegiatan inputing data yang bersifat multi admin, sistem cloud ini sangat pas digunakan. Pun penyimpanan cloud ini juga membantu memuat data lebih real time.</p>
                         </div>
                     </div>
                 </div>
@@ -68,8 +68,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">We salute you!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <h2 class="display-4">Barcode & Tagging</h2>
+                            <p>mampu mencegah terjadinya kesalahan yang diakibatkan oleh human error, atas pengelolaan inventaris atau persediaan barang perusahaan secara manual. Dengan fitur ini, perusahaan juga dapat meningkatkan daya kontrol serta monitoring atas inventaris dan persediaannya, mencakup harga hingga detail produk atau barang secara tepat.</p>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Let there be rock!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <h2 class="display-4">e-Invoincing</h2>
+                            <p>Buat faktur yang terlihat profesional dan kirimkan ke pelanggan Anda secara elektronik melalui email hanya dengan beberapa klik</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white small"></p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
