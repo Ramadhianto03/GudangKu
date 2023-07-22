@@ -1,5 +1,16 @@
 {{-- @dd($products) --}}
 
+{{-- <h1>INI HALAMAN PRODUCT</h1>
+
+@foreach ( $products as $product)
+    <h1>{{$product->nama_barang}}</h1>
+    <p>{{$product->harga_barang}}</p>
+    <p>{{$product->jumlah_barang}}</p>
+    <hr>
+@endforeach --}}
+
+{{-- @dd($products) --}}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -31,20 +42,6 @@
                 </div>
             </div>
         </nav>
-        <!-- Header-->
-        <header class="masthead text-center text-white">
-            <div class="masthead-content">
-                <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-                    <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
-                </div>
-            </div>
-            <div class="bg-circle-1 bg-circle"></div>
-            <div class="bg-circle-2 bg-circle"></div>
-            <div class="bg-circle-3 bg-circle"></div>
-            <div class="bg-circle-4 bg-circle"></div>
-        </header>
         <!-- Content section 1-->
         <section id="scroll">
             <div class="container px-5">
@@ -54,8 +51,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Penyimpanan Barang</h2>
-                            <p>Di website Gudangku ini menyediakan penyimpanan barang yang dimana berguna untuk menghindari kelebihan barang atau kekurangan stok barang. Biasanya barang yang disimpan disini merupakan barang barang dari perusahaan seperti pesanan pelanggan.</p>
+                            <h2 class="display-4">Sudah Menggunakan Sistem Cloud</h2>
+                            <p>aplikasi inventaris barang ini sudah menggunakan sistem cloud untuk menyimpan semua data yang dimasukkan. Sistem cloud ini sangat memungkinkan data untuk diakses banyak orang dari satu database. Sehingga untuk kegiatan inputing data yang bersifat multi admin, sistem cloud ini sangat pas digunakan. Pun penyimpanan cloud ini juga membantu memuat data lebih real time.</p>
                         </div>
                     </div>
                 </div>
@@ -70,8 +67,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">Bahan Bahan Sembako</h2>
-                            <p>Selain menyediakan barang barang untuk perusahaan website GudangKu ini juga menyediakan bahan bahan sembako atau bisa dibilang bahan pokok, seperti telur, minyak makan, garam, beras, dan lain lain.</p>
+                            <h2 class="display-4">Barcode & Tagging</h2>
+                            <p>mampu mencegah terjadinya kesalahan yang diakibatkan oleh human error, atas pengelolaan inventaris atau persediaan barang perusahaan secara manual. Dengan fitur ini, perusahaan juga dapat meningkatkan daya kontrol serta monitoring atas inventaris dan persediaannya, mencakup harga hingga detail produk atau barang secara tepat.</p>
                         </div>
                     </div>
                 </div>
@@ -86,8 +83,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Perabotan Rumah Tangga</h2>
-                            <p>GudangKu juga menyediakan perabotan rumah tangga seperti sapu, ember, baskom, sekop sapu, </p>
+                            <h2 class="display-4">e-Invoincing</h2>
+                            <p>Buat faktur yang terlihat profesional dan kirimkan ke pelanggan Anda secara elektronik melalui email hanya dengan beberapa klik</p>
                         </div>
                     </div>
                 </div>
