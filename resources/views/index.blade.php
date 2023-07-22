@@ -52,8 +52,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Sudah Menggunakan Sistem Cloud</h2>
-                            <p>aplikasi inventaris barang ini sudah menggunakan sistem cloud untuk menyimpan semua data yang dimasukkan. Sistem cloud ini sangat memungkinkan data untuk diakses banyak orang dari satu database. Sehingga untuk kegiatan inputing data yang bersifat multi admin, sistem cloud ini sangat pas digunakan. Pun penyimpanan cloud ini juga membantu memuat data lebih real time.</p>
+                            <h2 class="display-4">Penyimpanan Barang</h2>
+                            <p>Di website Gudangku ini menyediakan penyimpanan barang yang dimana berguna untuk menghindari kelebihan barang atau kekurangan stok barang. Biasanya barang yang disimpan disini merupakan barang barang dari perusahaan seperti pesanan pelanggan.</p>
                         </div>
                     </div>
                 </div>
@@ -68,8 +68,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">Barcode & Tagging</h2>
-                            <p>mampu mencegah terjadinya kesalahan yang diakibatkan oleh human error, atas pengelolaan inventaris atau persediaan barang perusahaan secara manual. Dengan fitur ini, perusahaan juga dapat meningkatkan daya kontrol serta monitoring atas inventaris dan persediaannya, mencakup harga hingga detail produk atau barang secara tepat.</p>
+                            <h2 class="display-4">Bahan Bahan Sembako</h2>
+                            <p>Selain menyediakan barang barang untuk perusahaan website GudangKu ini juga menyediakan bahan bahan sembako atau bisa dibilang bahan pokok, seperti telur, minyak makan, garam, beras, dan lain lain.</p>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,8 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">e-Invoincing</h2>
-                            <p>Buat faktur yang terlihat profesional dan kirimkan ke pelanggan Anda secara elektronik melalui email hanya dengan beberapa klik</p>
+                            <h2 class="display-4">Perabotan Rumah Tangga</h2>
+                            <p>GudangKu juga menyediakan perabotan rumah tangga seperti sapu, ember, baskom, sekop sapu, </p>
                         </div>
                     </div>
                 </div>
