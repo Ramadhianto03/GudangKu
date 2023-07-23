@@ -21,7 +21,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
-                <img src="/assets/img/logo.png" width="50px">
+                <img src="/assets/img/logo.png" width="100px" height="50px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -35,8 +35,10 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-                    <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
+                    <h1 class="masthead-heading mb-0">GudangKu</h1>
+                    <div class="mb-10 font-24 font-18-mbl font-medium">
+                      Rasakan kemudahan mengelola stok inventori toko Anda secara mendetil dengan aplikasi stok barang dari GudangKu.
+                    </div>
                     <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Selengkapnya</a>
                 </div>
             </div>
