@@ -43,30 +43,18 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="masthead text-center text-white">
-            <div class="masthead-content">
-                <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-                    <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
-                </div>
-            </div>
-            <div class="bg-circle-1 bg-circle"></div>
-            <div class="bg-circle-2 bg-circle"></div>
-            <div class="bg-circle-3 bg-circle"></div>
-            <div class="bg-circle-4 bg-circle"></div>
-        </header>
+        
         <!-- Content section 1-->
         <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/Rak.jpg" alt=" " /></div>
+                    <div class="text-center">
+                        <img src="assets/img/screen.jpg" style = "width:200px ; height:200px"alt=" "  />
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Sudah Menggunakan Sistem Cloud</h2>
-                            <p>aplikasi inventaris barang ini sudah menggunakan sistem cloud untuk menyimpan semua data yang dimasukkan. Sistem cloud ini sangat memungkinkan data untuk diakses banyak orang dari satu database. Sehingga untuk kegiatan inputing data yang bersifat multi admin, sistem cloud ini sangat pas digunakan. Pun penyimpanan cloud ini juga membantu memuat data lebih real time.</p>
+                            <h2 class="display-4">Screen Projector</h2>
+                            <p>Rp. 395000</p>
                         </div>
                     </div>
                 </div>
@@ -77,12 +65,12 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/sembako.jpg" alt="..." /></div>
+                        <img src="assets/img/whiteboard.jpg" style = "width:200px ; height:200px" alt="..." /></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">Barcode & Tagging</h2>
-                            <p>mampu mencegah terjadinya kesalahan yang diakibatkan oleh human error, atas pengelolaan inventaris atau persediaan barang perusahaan secara manual. Dengan fitur ini, perusahaan juga dapat meningkatkan daya kontrol serta monitoring atas inventaris dan persediaannya, mencakup harga hingga detail produk atau barang secara tepat.</p>
+                            <h2 class="display-4">WhiteBoard</h2>
+                            <p>Rp. 30000</p>
                         </div>
                     </div>
                 </div>
@@ -93,17 +81,67 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/perabotan.jpeg" alt="..." /></div>
+                        <img src="assets/img/printer.png" style = "width:200px ; height:200px" alt="..." /></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">e-Invoincing</h2>
-                            <p>Buat faktur yang terlihat profesional dan kirimkan ke pelanggan Anda secara elektronik melalui email hanya dengan beberapa klik</p>
+                            <h2 class="display-4">Printer</h2>
+                            <p>100000</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+         <!-- Content section 4-->
+         <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img src="assets/img/telur.jpeg" style = "width:200px ; height:200px" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">telur</h2>
+                            <p>Rp. 40000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!-- Content section 5-->
+         <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img src="assets/img/minyak.jpg" style = "width:200px ; height:200px" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">minyak</h2>
+                            <p>Rp. 40000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Content section 6-->
+         <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img src="assets/img/beras.jpg" style = "width:200px ; height:200px" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">beras</h2>
+                            <p>Rp. 6000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <!-- Footer-->
         <footer class="py-5 bg-black">
             <div class="container px-5"><p class="m-0 text-center text-white small"></p></div>
