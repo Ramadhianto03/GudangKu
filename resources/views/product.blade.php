@@ -36,6 +36,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/product">Product</a></li>
                         @auth
                         <form action="/logout" method="post">
@@ -50,11 +51,7 @@
             </div>
         </nav>
         <!-- Header-->
-<<<<<<< HEAD
     
-=======
-        
->>>>>>> 940a692c09d8387cd6adf6fba1a1fbdd4497c0a4
         <!-- Content section 1-->
         @foreach ( $products as $product)
             
@@ -63,12 +60,13 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="text-center">
-                        <img src="assets/img/screen.jpg" style = "width:200px ; height:200px"alt=" "  />
+                        <img src="/assets/img/{{$product->img}}" style = "width:200px ; height:200px"alt=" "  />
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">{{$product->nama_barang}}</h2>
                             <p>Rp.{{$product->harga_barang}} </p>
+                            <p>Jumlah Barang {{$product->jumlah_barang}}</p>
                         </div>
                     </div>
                 </div>
