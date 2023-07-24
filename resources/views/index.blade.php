@@ -35,27 +35,20 @@
         <!-- Header-->
         <header class="masthead text-center text-white">
             <div class="masthead-content">
-                <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">GudangKu</h1>
+            <h1 class="masthead-heading mb-0 ">GudangKu</h1>
                     <div class="mb-10 font-24 font-18-mbl font-medium">
                       Rasakan kemudahan mengelola stok inventori toko Anda secara mendetil dengan aplikasi stok barang dari GudangKu.
                     </div>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Selengkapnya</a>
-                    <img src="/assets/img/inventory.jpg" width="1000px" height="1000px">
-                </div>
+                <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Selengkapnya</a>
                 
             </div>
-            <div class="bg-circle-1 bg-circle"></div>
-            <div class="bg-circle-2 bg-circle"></div>
-            <div class="bg-circle-3 bg-circle"></div>
-            <div class="bg-circle-4 bg-circle"></div>
         </header>
         <!-- Content section 1-->
         <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/Rak.jpg" alt=" " /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="/assets/img/inventory.jpg" alt=" " /></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
@@ -87,16 +80,26 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/perabotan.jpeg" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/perabotan.jpg" alt="..." /></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">Perabotan Rumah Tangga</h2>
-                            <p>GudangKu juga menyediakan perabotan rumah tangga seperti sapu, ember, baskom, sekop sapu, </p>
+                            <p>GudangKu juga menyediakan perabotan rumah tangga seperti sapu, ember, baskom, sekop, sapu, dan lainnya. </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- Content section 4-->
+        <section>
+            <div class="col-lg-6 order-lg-1  " >
+                        <div class="p-5 " >
+                            <h2 class="display-4 ">Praktis dalam mencatat akses usaha Anda</h2>
+                            <p>Tidak perlu pusing dalam mencatat aset atau inventaris barang baru. Hilangkan kebiasaan lama dalam mencatat inventaris barang secara manual. </p>
+                        </div>
+            </div>
+            
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-black">
