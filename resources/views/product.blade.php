@@ -56,6 +56,9 @@
         
 >>>>>>> 940a692c09d8387cd6adf6fba1a1fbdd4497c0a4
         <!-- Content section 1-->
+        @foreach ( $products as $product)
+            
+        
         <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
@@ -64,94 +67,14 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Screen Projector</h2>
-                            <p>Rp. 395000</p>
+                            <h2 class="display-4">{{$product->nama_barang}}</h2>
+                            <p>Rp.{{$product->harga_barang}} </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Content section 2-->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <img src="assets/img/whiteboard.jpg" style = "width:200px ; height:200px" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">WhiteBoard</h2>
-                            <p>Rp. 30000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Content section 3-->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <img src="assets/img/printer.png" style = "width:200px ; height:200px" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Printer</h2>
-                            <p>100000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         <!-- Content section 4-->
-         <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <img src="assets/img/telur.jpeg" style = "width:200px ; height:200px" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">telur</h2>
-                            <p>Rp. 40000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-         <!-- Content section 5-->
-         <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <img src="assets/img/minyak.jpg" style = "width:200px ; height:200px" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">minyak</h2>
-                            <p>Rp. 40000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         <!-- Content section 6-->
-         <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <img src="assets/img/beras.jpg" style = "width:200px ; height:200px" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">beras</h2>
-                            <p>Rp. 6000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        @endforeach
         
         <!-- Footer-->
         <footer class="py-5 bg-black">
