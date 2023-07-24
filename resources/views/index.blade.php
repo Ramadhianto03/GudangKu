@@ -40,7 +40,9 @@
                       Rasakan kemudahan mengelola stok inventori toko Anda secara mendetil dengan aplikasi stok barang dari GudangKu.
                     </div>
                     <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Selengkapnya</a>
+                    <img src="/assets/img/inventory.jpg" width="1000px" height="1000px">
                 </div>
+                
             </div>
             <div class="bg-circle-1 bg-circle"></div>
             <div class="bg-circle-2 bg-circle"></div>
