@@ -32,7 +32,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-info bg-info">
             <div class="container px-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            <img src="/assets/img/logo.png" width="100px" height="50px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -50,7 +50,11 @@
             </div>
         </nav>
         <!-- Header-->
+<<<<<<< HEAD
+    
+=======
         
+>>>>>>> 940a692c09d8387cd6adf6fba1a1fbdd4497c0a4
         <!-- Content section 1-->
         <section id="scroll">
             <div class="container px-5">
