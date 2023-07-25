@@ -51,19 +51,19 @@
             </div>
         </nav>
         <!-- Header-->
-    
+
         <!-- Content section 1-->
         @foreach ( $products as $product)
-            
-        
+
+
         <section id="scroll">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="text-center">
+            <div class="container">
+                <div class="card row gx-3 align-items-center top-50 start-50 translate-middle" style="width: 50%">
+                    <div class="card-img-top text-center">
                         <img src="/assets/img/{{$product->img}}" style = "width:200px ; height:200px"alt=" "  />
                     </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
+                    <div class="card-body col-lg-6 order-lg-1">
+                        <div class="p-5 text-center">
                             <h2 class="display-4">{{$product->nama_barang}}</h2>
                             <p>Rp.{{$product->harga_barang}} </p>
                             <p>Jumlah Barang {{$product->jumlah_barang}}</p>
@@ -73,7 +73,7 @@
             </div>
         </section>
         @endforeach
-        
+
         <!-- Footer-->
         <footer class="py-5 bg-black">
             <div class="container px-5"><p class="m-0 text-center text-white small"></p></div>
