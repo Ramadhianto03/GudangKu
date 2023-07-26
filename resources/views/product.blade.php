@@ -30,9 +30,9 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-info bg-info">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md" >
             <div class="container px-5">
-            <img src="/assets/img/logo.png" width="100px" height="50px">
+            <img src="/assets/img/logo.png" width="150px" height="100px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -40,8 +40,8 @@
                         <li class="nav-item"><a class="nav-link" href="/product">Product</a></li>
                         @auth
                         <form action="/logout" method="post">
-                            @csrf
-                        <li class="nav-item"><button class="nav-link" type="submit">Logout</button></li>
+                        @csrf
+                        <li class="nav-item"><button type="submit" class= "btn btn-dark">Logout</button></li>
                         </form>
                         @else
                         <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
@@ -57,10 +57,10 @@
 
 
         <section id="scroll">
-            <div class="container">
-                <div class="card row gx-3 align-items-center top-50 start-50 translate-middle" style="width: 50%">
-                    <div class="card-img-top text-center">
-                        <img src="/assets/img/{{$product->img}}" style = "width:200px ; height:200px"alt=" "  />
+            <div class="container border p-md-5 p-2">
+                <div class="row g-2 g-md-4">
+                    <div class="col-6 col-md-3">
+                        <img src="/assets/img/{{$product->img}}" style = "width:300px ; height:300px"alt=" "  />
                     </div>
                     <div class="card-body col-lg-6 order-lg-1">
                         <div class="p-5 text-center">
