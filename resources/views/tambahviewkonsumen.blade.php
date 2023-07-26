@@ -16,8 +16,8 @@
         <link href="/css/styles.css" rel="stylesheet" />
 </head>
 <body>
-           <!-- Navigation-->
-           <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
                 <img src="/assets/img/logo.png" width="100px" height=50px>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -33,26 +33,23 @@
         </nav>
         <section class="row justify-content-center" style="padding-top: 100px ; min-height:100vh">
             <div class="col-6">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Nama Konsumen</th>
-                        <th scope="col">Email</th>
-                    </tr>
-                    </thead>
-                    <tbody class="table-group-divider">
-                        @foreach ($konsumens as $konsumen )
-                        <tr>
-                            <td>{{$konsumen->name}}</td>
-                            <td>{{$konsumen->email}}</td>
-                        </tr>
-                            
-                        @endforeach
-                    </tbody>
-                </table>
-                <a href="/konsumen/tambahViewKonsumen" class="btn btn-primary">Tambah Konsumen</a>
+            <form action="/konsumen/tambah" method="post">
+                @csrf
+            <h1 class="h3 mb-3 text-center fw-normal pt-5">Menambah Data Konsumen</h1>
+
+            <div class="form-floating">
+            <input name="name" type="text" class="form-control" id="floatingInput" placeholder="name">
+            <label for="floatingInput">Nama</label>
             </div>
-            
+            <div class="form-floating">
+            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+            </div>
+            <div class="checkbox mb-3">
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Tambah Konsumen</button>
+        </div>
+        </form>
         </section>
     
     <!-- Footer-->

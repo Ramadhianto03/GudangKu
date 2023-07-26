@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KonsumenController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
@@ -27,6 +28,7 @@ Route::get('/register', function () {
     return view('register');
 })->middleware('guest');
 
+
 Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/product', [ProductController::class, 'index'])->middleware('auth');
@@ -34,6 +36,11 @@ Route::get('/product', [ProductController::class, 'index'])->middleware('auth');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
+Route::get('/konsumen', [KonsumenController::class, 'index'])->middleware('auth');
+Route::get('/konsumen/tambahViewKonsumen', function () {
+    return view('tambahViewKonsumen');
+});
+Route::post('/konsumen/tambah', [KonsumenController::class, 'create'])->middleware('auth');
 
 
 

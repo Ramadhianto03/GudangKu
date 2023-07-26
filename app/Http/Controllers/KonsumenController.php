@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Konsumen;
 use App\Http\Requests\StoreKonsumenRequest;
 use App\Http\Requests\UpdateKonsumenRequest;
+use Illuminate\Http\Request;
 
 class KonsumenController extends Controller
 {
@@ -13,15 +14,20 @@ class KonsumenController extends Controller
      */
     public function index()
     {
-        //
+        return view('konsumen', [
+            "konsumens" => Konsumen::all()
+        ]);
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Konsumen $konsumen,Request $requestKonsumen)
     {
-        //
+        $data = $requestKonsumen->all();
+        // dd($data);
+        $konsumen->create($data);
+        return redirect('/konsumen');
     }
 
     /**
