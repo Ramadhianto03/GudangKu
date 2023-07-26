@@ -5,13 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Inventory extends Model
+class Konsumen extends Model
 {
     use HasFactory;
-
     protected $guarded = ['id'];
 
-    public function konsumen(){
-        return $this->belongsTo(Konsumen::class);
+    public function inventory(){
+        return $this->hasMany(Inventory::class);
     }
 }
