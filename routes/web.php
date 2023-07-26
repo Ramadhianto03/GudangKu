@@ -25,7 +25,7 @@ Route::get('/login', function () {
 })->name('login');
 Route::get('/register', function () {
     return view('register');
-});
+})->middleware('guest');
 
 Route::post('/register', [RegisterController::class, 'store']);
 
