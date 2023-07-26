@@ -104,8 +104,11 @@
             
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">wanda</p></div>
+        <footer class="py-5 bg-black text centre py-1">
+            <div class="container px-5 text-dark">
+            <a href="https://www.instagram.com/accounts/onetap/?next=%2F"><img src="assets/img/insta.png" style="width:150px; height:100px;">
+            <a href="https://www.instagram.com/accounts/onetap/?next=%2F"><img src="assets/img/insta.png" style="width:150px; height:100px;">
+            <div class="container px-5"><p class="m-0 text-center text-white small"></p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
