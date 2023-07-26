@@ -16,8 +16,8 @@
         <link href="/css/styles.css" rel="stylesheet" />
 </head>
 <body>
-           <!-- Navigation-->
-           <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
                 <img src="/assets/img/logo.png" width="100px" height=50px>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
