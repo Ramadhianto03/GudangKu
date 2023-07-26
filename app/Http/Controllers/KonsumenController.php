@@ -30,6 +30,11 @@ class KonsumenController extends Controller
         return redirect('/konsumen');
     }
 
+public function delete(Konsumen $konsumen){
+    $konsumen->delete();
+    return back();
+}
+
     /**
      * Store a newly created resource in storage.
      */

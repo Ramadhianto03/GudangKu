@@ -34,21 +34,34 @@
         </nav>
         <section class="row justify-content-center" style="padding-top: 100px ; min-height:100vh">
             <div class="col-6">
-            <form action="/konsumen/tambah" method="post">
+            <form action="/inventory/tambah" method="post">
                 @csrf
-            <h1 class="h3 mb-3 text-center fw-normal pt-5">Menambah Data Konsumen</h1>
-
+            <h1 class="h3 mb-3 text-center fw-normal pt-5">Menambah Data Inventory</h1>
+            
             <div class="form-floating">
-            <input name="name" type="text" class="form-control" id="floatingInput" placeholder="name">
-            <label for="floatingInput">Nama</label>
+                <input name="id_konsumen" type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">ID Konsumen</label>
             </div>
             <div class="form-floating">
-            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+            <input name="nama_barang" type="text" class="form-control" id="floatingInput" placeholder="name">
+            <label for="floatingInput">Nama Barang</label>
             </div>
+            <div class="form-floating">
+            <input name="harga_barang" type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Harga Barang</label>
+            </div>
+            <div class="form-floating">
+                <input name="jumlah_barang" type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Jumlah Barang</label>
+                </div>
+            <div class="form-floating">
+                    <input name="keterangan_barang" type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Keterangan</label>
+                    </div>
+                    
             <div class="checkbox mb-3">
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Tambah Konsumen</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Tambah Data Barang</button>
         </div>
         </form>
         </section>
