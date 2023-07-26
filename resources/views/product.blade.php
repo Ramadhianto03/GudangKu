@@ -38,6 +38,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/konsumen">Konsumen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/inventory">Inventory</a></li>
                         <li class="nav-item"><a class="nav-link" href="/product">Product</a></li>
                         @auth
                         <form action="/logout" method="post">
