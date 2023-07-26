@@ -28,6 +28,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/konsumen">Konsumen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/inventory">Inventory</a></li>
                         <li class="nav-item"><a class="nav-link" href="/product">Product</a></li>
                         <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
                     </ul>
@@ -39,7 +40,7 @@
             <div class="masthead-content">
             <h1 class="masthead-heading mb-0 ">GudangKu</h1>
                     <div class="mb-10 font-24 font-18-mbl font-medium">
-                      Rasakan kemudahan mengelola stok inventori toko Anda secara mendetil dengan aplikasi stok barang dari GudangKu.
+                    Rasakan kemudahan mengelola stok inventori toko Anda secara mendetil dengan aplikasi stok barang dari GudangKu.
                     </div>
                 <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Selengkapnya</a>
 
@@ -104,6 +105,7 @@
 
         </section>
         <!-- Footer-->
+<<<<<<< HEAD
         <footer class="py-5 bg-black">
             <div class="container px-5">
                 <img src="/assets/img/facebook.png" width="35px" height="35px">
@@ -112,6 +114,13 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive"></div>
             </div>
+=======
+        <footer class="py-5 bg-black text centre py-1">
+            <div class="container px-5 text-dark">
+            <a href="https://www.instagram.com/accounts/onetap/?next=%2F"><img src="assets/img/insta.png" style="width:150px; height:100px;">
+            <a href="https://www.instagram.com/accounts/onetap/?next=%2F"><img src="assets/img/insta.png" style="width:150px; height:100px;">
+            <div class="container px-5"><p class="m-0 text-center text-white small"></p></div>
+>>>>>>> 683937065e79f8fbdc8b62345340887f55885071
         </footer>
 
         <!-- Bootstrap core JS-->

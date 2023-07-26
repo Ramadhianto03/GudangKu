@@ -25,8 +25,16 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/konsumen">Konsumen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/inventory">Inventory</a></li>
                         <li class="nav-item"><a class="nav-link" href="/product">Product</a></li>
+                        @auth
+                        <form action="/logout" method="post">
+                        @csrf
+                        <li class="nav-item"><button type="submit" class= "btn btn-dark">Logout</button></li>
+                        </form>
+                        @else
                         <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
+                        @endauth
                     </ul>
                 </div>
             </div>
@@ -38,6 +46,7 @@
                     <tr>
                         <th scope="col">Nama Konsumen</th>
                         <th scope="col">Email</th>
+                        <th>#</th>
                     </tr>
                     </thead>
                     <tbody class="table-group-divider">
@@ -45,6 +54,15 @@
                         <tr>
                             <td>{{$konsumen->name}}</td>
                             <td>{{$konsumen->email}}</td>
+                            <td>
+                                <form onsubmit="return confirm('Data Konsumen Akan Dihapus?')" action="/konsumen/hapus/{{$konsumen->id}}" method="post">
+                                @csrf
+                                @method('DELETE')
+                                <button class="btn btn-danger">
+                                    Hapus
+                                </button>
+                                </form>
+                            </td>
                         </tr>
                             
                         @endforeach

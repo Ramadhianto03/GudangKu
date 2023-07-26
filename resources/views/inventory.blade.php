@@ -27,30 +27,57 @@
                         <li class="nav-item"><a class="nav-link" href="/konsumen">Konsumen</a></li>
                         <li class="nav-item"><a class="nav-link" href="/inventory">Inventory</a></li>
                         <li class="nav-item"><a class="nav-link" href="/product">Product</a></li>
+                        @auth
+                        <form action="/logout" method="post">
+                        @csrf
+                        <li class="nav-item"><button type="submit" class= "btn btn-dark">Logout</button></li>
+                        </form>
+                        @else
                         <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
+                        @endauth
                     </ul>
                 </div>
             </div>
         </nav>
         <section class="row justify-content-center" style="padding-top: 100px ; min-height:100vh">
             <div class="col-6">
-            <form action="/konsumen/tambah" method="post">
-                @csrf
-            <h1 class="h3 mb-3 text-center fw-normal pt-5">Menambah Data Konsumen</h1>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Nama Barang</th>
+                        <th scope="col">Harga Barang</th>
+                        <th scope="col">Jumlah Barang</th>
+                        <th scope="col">Keterangan</th>
+                        <th scope="col">Pemilik</th>
 
-            <div class="form-floating">
-            <input name="name" type="text" class="form-control" id="floatingInput" placeholder="name">
-            <label for="floatingInput">Nama</label>
+                        <th>#</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        @foreach ($inventories as $inventory )
+                        <tr>
+                            <td>{{$inventory->nama_barang}}</td>
+                            <td>{{$inventory->harga_barang}}</td>
+                            <td>{{$inventory->jumlah_barang}}</td>
+                            <td>{{$inventory->keterangan_barang}}</td>
+                            <td>{{$inventory->konsumen->name}}</td>
+                            <td>
+                                <form onsubmit="return confirm('Data Konsumen Akan Dihapus?')" action="/inventory/hapus/{{$inventory->id}}" method="post">
+                                @csrf
+                                @method('DELETE')
+                                <button class="btn btn-danger">
+                                    Hapus
+                                </button>
+                                </form>
+                            </td>
+                        </tr>
+                            
+                        @endforeach
+                    </tbody>
+                </table>
+                <a href="/inventory/tambahViewInventory" class="btn btn-primary">Tambah Konsumen</a>
             </div>
-            <div class="form-floating">
-            <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-            </div>
-            <div class="checkbox mb-3">
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Tambah Konsumen</button>
-        </div>
-        </form>
+            
         </section>
     
     <!-- Footer-->

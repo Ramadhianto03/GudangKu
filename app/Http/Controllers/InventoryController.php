@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Inventory;
 use App\Http\Requests\StoreInventoryRequest;
 use App\Http\Requests\UpdateInventoryRequest;
+use Illuminate\Http\Request;
 
 class InventoryController extends Controller
 {
@@ -13,16 +14,25 @@ class InventoryController extends Controller
      */
     public function index()
     {
-        //
+        return view('inventory', [
+            "inventories" => Inventory::all()
+        ]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
+    public function create(Inventory $inventory,Request $requestInventory)
     {
-        //
+        $data = $requestInventory->all();
+        // dd($data);
+        $inventory->create($data);
+        return redirect('/inventory');
     }
+
+public function delete(Inventory $inventory){
+    $inventory->delete();
+    return back();
+}
+    /**
+     * Show the form for creating a new resource
 
     /**
      * Store a newly created resource in storage.

@@ -12,6 +12,6 @@ class Inventory extends Model
     protected $guarded = ['id'];
 
     public function konsumen(){
-        return $this->belongsTo(Konsumen::class);
+        return $this->belongsTo(Konsumen::class, 'id_konsumen');
     }
 }
