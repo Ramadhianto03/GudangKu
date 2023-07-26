@@ -19,9 +19,10 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <header role="banner">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md" >
             <div class="container px-5">
-                <img src="/assets/img/logo.png" width="100px" height="50px">
+                <img src="/assets/img/logo.png" width="150px" height="100px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
