@@ -42,7 +42,7 @@
                       Rasakan kemudahan mengelola stok inventori toko Anda secara mendetil dengan aplikasi stok barang dari GudangKu.
                     </div>
                 <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Selengkapnya</a>
-                
+
             </div>
         </header>
         <!-- Content section 1-->
@@ -101,12 +101,19 @@
                             <p>Tidak perlu pusing dalam mencatat aset atau inventaris barang baru. Hilangkan kebiasaan lama dalam mencatat inventaris barang secara manual. </p>
                         </div>
             </div>
-            
+
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">wanda</p></div>
+            <div class="container px-5">
+                <img src="/assets/img/facebook.png" width="35px" height="35px">
+                <img src="/assets/img/instagram.png" width="35px" height="35px">
+                <img src="/assets/img/wa.png" width="35px" height="35px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive"></div>
+            </div>
         </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
