@@ -105,23 +105,14 @@
 
         </section>
         <!-- Footer-->
-<<<<<<< HEAD
         <footer class="py-5 bg-black">
             <div class="container px-5">
-                <img src="/assets/img/facebook.png" width="35px" height="35px">
-                <img src="/assets/img/instagram.png" width="35px" height="35px">
                 <img src="/assets/img/wa.png" width="35px" height="35px">
+                <a href="https://www.instagram.com/accounts/onetap/?next=%2F"><img src="/assets/img/instagram.png" width="35px" height="35px">
+                <a href="https://m.facebook.com/?paipv=0&eav=AfZz28Eu4QA0DCbL0eZaLSYoBeXsVVEdgBZa0SYbaCpEYB3KLjuGc4ay_cX9W5kJFcE&_rdr"><img src="/assets/img/facebook.png" width="35px" height="35px">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive"></div>
             </div>
-=======
-        <footer class="py-5 bg-black text centre py-1">
-            <div class="container px-5 text-dark">
-            <a href="https://www.instagram.com/accounts/onetap/?next=%2F"><img src="assets/img/insta.png" style="width:150px; height:100px;">
-            <a href="https://www.instagram.com/accounts/onetap/?next=%2F"><img src="assets/img/insta.png" style="width:150px; height:100px;">
-            <div class="container px-5"><p class="m-0 text-center text-white small"></p></div>
->>>>>>> 683937065e79f8fbdc8b62345340887f55885071
-        </footer>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
