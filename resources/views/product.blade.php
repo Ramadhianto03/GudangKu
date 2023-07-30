@@ -56,8 +56,6 @@
 
         <!-- Content section 1-->
         @foreach ( $products as $product)
-
-
         <section id="scroll">
             <div class="container border p-md-5 p-2">
                 <div class="row g-2 g-md-4">
@@ -75,8 +73,6 @@
             </div>
         </section>
         @endforeach
-
-        <!-- Footer-->
         <!-- Footer-->
         <footer class="py-5 bg-black">
             <div class="container px-5">
@@ -86,10 +82,9 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive"></div>
             </div>
-
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="/js/scripts.js"></script>
-    </body>
+</body>
 </html>

@@ -55,5 +55,40 @@ class DatabaseSeeder extends Seeder
             'jumlah_barang' => '1000',
             'img' => 'teluar.png'
             ]);
+            Product::create([
+                'id' => '6',
+            'nama_barang' => 'Kecap',
+            'harga_barang' => '1000',
+            'jumlah_barang' => '1000',
+            'img' => 'kecap.png'
+            ]);
+            Product::create([
+                'id' => '7',
+            'nama_barang' => 'Sapu',
+            'harga_barang' => '15000',
+            'jumlah_barang' => '100',
+            'img' => 'sapu.png'
+            ]);
+            Product::create([
+                'id' => '8',
+            'nama_barang' => 'wajan',
+            'harga_barang' => '99000',
+            'jumlah_barang' => '50',
+            'img' => 'wajan.png'
+            ]);
+            Product::create([
+                'id' => '9',
+            'nama_barang' => 'Ember',
+            'harga_barang' => '10000',
+            'jumlah_barang' => '250',
+            'img' => 'ember.png'
+            ]);
+            Product::create([
+                'id' => '7',
+            'nama_barang' => 'Pengepel Lantai',
+            'harga_barang' => '30000',
+            'jumlah_barang' => '150',
+            'img' => 'pellantai.png'
+            ]);
     }
 }
