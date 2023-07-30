@@ -94,14 +94,6 @@
                 </div>
             </div>
         </section>
-        <!-- Content section 4-->
-        <section>
-            <div class="col-lg-6 order-lg-1  " >
-                        <div class="p-5 " >
-                            <h2 class="display-4 ">Praktis dalam mencatat akses usaha Anda</h2>
-                            <p>Tidak perlu pusing dalam mencatat aset atau inventaris barang baru. Hilangkan kebiasaan lama dalam mencatat inventaris barang secara manual. </p>
-                        </div>
-            </div>
 
         </section>
         <!-- Footer-->
