@@ -84,7 +84,7 @@ class DatabaseSeeder extends Seeder
             'img' => 'ember.png'
             ]);
             Product::create([
-                'id' => '7',
+                'id' => '10',
             'nama_barang' => 'Pengepel Lantai',
             'harga_barang' => '30000',
             'jumlah_barang' => '150',
