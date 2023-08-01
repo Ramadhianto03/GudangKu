@@ -62,7 +62,7 @@
                             <td>{{$inventory->harga_barang}}</td>
                             <td>{{$inventory->jumlah_barang}}</td>
                             <td>{{$inventory->keterangan_barang}}</td>
-                            {{-- <td>{{$inventory->konsumen->name}}</td> --}}
+                            <td>{{$inventory->konsumen->name}}</td>
                             <td>
                                 <form onsubmit="return confirm('Data Konsumen Akan Dihapus?')" action="/inventory/hapus/{{$inventory->id}}" method="post">
                                 @csrf
