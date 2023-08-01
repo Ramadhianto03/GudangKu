@@ -44,6 +44,7 @@
                 <table class="table">
                     <thead>
                     <tr>
+                        <th scope="col">No</th>
                         <th scope="col">Nama Konsumen</th>
                         <th scope="col">Email</th>
                         <th>#</th>
@@ -52,6 +53,7 @@
                     <tbody class="table-group-divider">
                         @foreach ($konsumens as $konsumen )
                         <tr>
+                            <td>{{$konsumen->id}}</td>
                             <td>{{$konsumen->name}}</td>
                             <td>{{$konsumen->email}}</td>
                             <td>

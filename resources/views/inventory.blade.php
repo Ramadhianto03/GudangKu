@@ -44,6 +44,7 @@
                 <table class="table">
                     <thead>
                     <tr>
+                        <th scope="col">No</th>
                         <th scope="col">Nama Barang</th>
                         <th scope="col">Harga Barang</th>
                         <th scope="col">Jumlah Barang</th>
@@ -56,11 +57,12 @@
                     <tbody class="table-group-divider">
                         @foreach ($inventories as $inventory )
                         <tr>
+                            <td>{{$inventory->id_konsumen}}</td>
                             <td>{{$inventory->nama_barang}}</td>
                             <td>{{$inventory->harga_barang}}</td>
                             <td>{{$inventory->jumlah_barang}}</td>
                             <td>{{$inventory->keterangan_barang}}</td>
-                            <td>{{$inventory->konsumen->name}}</td>
+                            {{-- <td>{{$inventory->konsumen->name}}</td> --}}
                             <td>
                                 <form onsubmit="return confirm('Data Konsumen Akan Dihapus?')" action="/inventory/hapus/{{$inventory->id}}" method="post">
                                 @csrf
